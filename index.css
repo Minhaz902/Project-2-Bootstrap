@@ -1,0 +1,35 @@
+.nav-css{
+    background:aquamarine;
+}
+.gallery h2::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    background: rgb(29, 200, 205);
+    left: 48%;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 3px;
+}
+#gallery .container img{
+    transition: ease-in-out 0.4s;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgba(24, 17, 17, 0.678)
+}
+a:hover{
+    color: aquamarine;
+}
+.info-links img{
+    font-size:1.4rem;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+}
+.btn-css{
+    background:rgb(29, 200, 205);
+}
