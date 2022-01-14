@@ -1,6 +1,11 @@
 .nav-css{
     background:aquamarine;
 }
+.call-section{
+    background-image: url(images/call-to-action-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
 .gallery h2::after{
     content: "";
     width: 50px;
